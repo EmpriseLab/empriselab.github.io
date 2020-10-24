@@ -9,14 +9,13 @@
 
   
 
-  <title>404 - Page not found</title>
+  <title>Tag Index</title>
 
   
   <meta name="author" content="EmPRISE Lab (Inspired by the <a href="http://www.allanlab.org/aboutwebsite" target=_blank>Allan Lab</a> template)">
   
 
-  <meta name="description" content="Whoops, this page doesn't exist.
-  Move along. (404 error)">
+  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
 
@@ -73,16 +72,15 @@
 
   
   <meta property="og:site_name" content="EmPRISE Lab">
-  <meta property="og:title" content="404 - Page not found">
-  <meta property="og:description" content="Whoops, this page doesn't exist.
-  Move along. (404 error)">
+  <meta property="og:title" content="Tag Index">
+  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000/404.html">
-  <link rel="canonical" href="http://localhost:4000/404.html">
+  <meta property="og:url" content="http://localhost:4000/tags/">
+  <link rel="canonical" href="http://localhost:4000/tags/">
   
 
   
@@ -91,9 +89,8 @@
   <meta name="twitter:site" content="@EmpriseLab">
   <meta name="twitter:creator" content="@EmpriseLab">
 
-  <meta property="twitter:title" content="404 - Page not found">
-  <meta property="twitter:description" content="Whoops, this page doesn't exist.
-  Move along. (404 error)">
+  <meta property="twitter:title" content="Tag Index">
+  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
 
   
 
@@ -148,21 +145,50 @@
 </nav>
 
 
-  <div class="intro-header"></div>
+  <!-- TODO this file has become a mess, refactor it -->
 
-<div role="main" class=" container-md ">
-  
 
-  <div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. (404 error)</h1>
-  <br/>
 
-  <img src="/assets/img/404-southpark.jpg" alt="Not found" />
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="page-heading">
+          <h1>Tag Index</h1>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</header>
 
 
-  
+
+
+
+<div class=" container-md " role="main">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
+      <div id="full-tags-list"></div>
+
+
+      
+
+      
+
+    </div>
+  </div>
 </div>
 
 
