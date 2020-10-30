@@ -9,13 +9,32 @@
 
   
 
-  <title>EmPRISE Lab</title>
+  <title>Teaching</title>
 
   
-  <meta name="author" content="EmPRISE Lab (Inspired by the Allan Lab template - http://www.allanlab.org/aboutwebsite)">
+  <meta name="author" content="EmPRISE Lab (Inspired by the <a href="http://www.allanlab.org/aboutwebsite" target=_blank>Allan Lab</a> template)">
   
 
-  <meta name="description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta name="description" content="[Autumn 2020] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Autumn 2019] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Winter 2019] 
+      
+         CSE 571: Robotics: Algorithms and Applications 
+    
+    
+    Here's a sample short video collage of some of the final projects in CSE 571 using various robotic manipulators, mobile robots, UAVs, simulators etc.:">
 
   
 
@@ -72,15 +91,34 @@
 
   
   <meta property="og:site_name" content="EmPRISE Lab">
-  <meta property="og:title" content="EmPRISE Lab">
-  <meta property="og:description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta property="og:title" content="Teaching">
+  <meta property="og:description" content="[Autumn 2020] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Autumn 2019] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Winter 2019] 
+      
+         CSE 571: Robotics: Algorithms and Applications 
+    
+    
+    Here's a sample short video collage of some of the final projects in CSE 571 using various robotic manipulators, mobile robots, UAVs, simulators etc.:">
 
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://emprise.cs.cornell.edu/">
-  <link rel="canonical" href="http://emprise.cs.cornell.edu/">
+  <meta property="og:url" content="http://emprise.cs.cornell.edu/teaching/">
+  <link rel="canonical" href="http://emprise.cs.cornell.edu/teaching/">
   
 
   
@@ -89,8 +127,27 @@
   <meta name="twitter:site" content="@EmpriseLab">
   <meta name="twitter:creator" content="@EmpriseLab">
 
-  <meta property="twitter:title" content="EmPRISE Lab">
-  <meta property="twitter:description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta property="twitter:title" content="Teaching">
+  <meta property="twitter:description" content="[Autumn 2020] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Autumn 2019] 
+      
+        Co-instructor for CSE 590R Research Seminar 
+    
+    
+    
+      
+        [Winter 2019] 
+      
+         CSE 571: Robotics: Algorithms and Applications 
+    
+    
+    Here's a sample short video collage of some of the final projects in CSE 571 using various robotic manipulators, mobile robots, UAVs, simulators etc.:">
 
   
 
@@ -160,12 +217,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="page-heading">
-          <h1>EmPRISE Lab</h1>
-          
-            
-              <hr class="small">
-              <span class="page-subheading">EMpowering People with Robots and Intelligent Shared Experiences</span>
-            
+          <h1>Teaching</h1>
           
 
           
@@ -191,47 +243,35 @@
   </head>
   
   <body>
-    <p align="left"><font size="4">Our mission is to enable robots to improve the quality of life of people with mobility limitations by assisting them with activities of daily living (ADLs). In our lab, we seek solutions to the fundamental research question on <i>how to leverage robot-world physical interactions in unstructured human environments to perform relevant ADLs</i>.</font></p>
-    <p align="left"><font size="4">EmPRISE lab is a part of the <a href="http://www.cs.cornell.edu/" target="_blank">Department of Computer Science</a> in the <a href="https://cis.cornell.edu/" target="_blank">Computing and Information Science</a> at <a href="https://www.cornell.edu/" target="_blank">Cornell University</a>. We are a full-stack robotics lab leveraging tools from sensing, perception, planning, learning, and control to provide intelligent autonomy. Our projects delve deep into human-robot interaction, haptic perception, robot manipulation, and tactile sensing. We are not only passionate about developing algorithms that solve fundamental problems in these domains but also strongly believe in developing real robotic systems, deploying them in the real world, and evaluating them with real users.</font></p>
-  
-    <h2>Recent News:</h2>
-
+        
+    <div class="row mt-3">
+      <div class="col-md-4 col-offset-md-1 clearfix">
+        [Autumn 2020] </div>
+      <div class="col-md-8 clearfix">
+        Co-instructor for CSE 590R Research Seminar </div>
+    </div>
     
-    <p><b>July 2021</b><br>
-    <em><b> Our lab will officially start</b>!</em></p>
+    <div class="row mt-3">
+      <div class="col-md-4 col-offset-md-1 clearfix">
+        [Autumn 2019] </div>
+      <div class="col-md-8 clearfix">
+        Co-instructor for CSE 590R Research Seminar </div>
+    </div>
     
-    <p><b>September 2020</b><br>
-    <em>Tapo gave an invited talk in <b>UTRGV CS Seminar</b></em></p>
-    
-    <p><b>September 2020</b><br>
-    <em>Tapo gave an invited talk in RO-MAN 2020 Workshop on <a href="https://sites.google.com/view/realworldhri-workshop">Solutions for Socially Intelligent HRI in Real-World Scenarios</a></em></p>
-    
-    <p><b>July 2020</b><br>
-    <em>Tapo gave an invited talk in RSS 2020 Workshop on <a href="https://www.tri.global/static/workshops/visuotactile2020/">Visuotactile Sensors for Robust Manipulation - From Perception to Control</a></em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Two papers accepted in IROS 2020 - one on <a href="https://drive.google.com/file/d/1PkrNqzhjFPmFPc3AFvvXr-Ui_NTKiT81/view">Online learning for Robot-Assisted Feeding</a> and the other on <a href="https://drive.google.com/file/d/1BKFLBWjMkECG5TxEE5axjAsLe86jWPW-/view">Chopsticks-based manipulation</a></em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Tapo was awarded <a href="https://www.ieee-ras.org/publications/ra-l/ra-l-distinguished-service-awards">Outstanding Reviewer</a> for the IEEE Robotics and Automation Letters</em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Tapo gave an invited talk in <b>UCSD Robotics Seminar Series</b></em></p>
-    
-
-    <h4><a href="http://emprise.cs.cornell.edu/allnews/">... See all news</a></h4>
+    <div class="row mt-3">
+      <div class="col-md-4 col-offset-md-1 clearfix">
+        [Winter 2019] </div>
+      <div class="col-md-8 clearfix">
+        <a href="https://courses.cs.washington.edu/courses/cse571/19wi/"> CSE 571: Robotics: Algorithms and Applications</a> </div>
+    </div>
+    <br>
+    Here's a sample short video collage of some of the final projects in CSE 571 using various robotic manipulators, mobile robots, UAVs, simulators etc.:
+    <p></p>
+    <div class="row">
+      <iframe src="https://www.youtube.com/embed/WRS23Tx7qp8" width="100%" height="400px" frameborder="0" allowfullscreen></iframe></div>
     
   </body>
 </html>
-
-
-
-
-<div class="posts-list">
-  
-</div>
-
-
 
 
       

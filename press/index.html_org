@@ -11,9 +11,12 @@
 
   <title>Press</title>
 
-  <meta name="author" content="EmPRISE Lab (Inspired by the Allan Lab template - http://www.allanlab.org/aboutwebsite)">  
+  
+  <meta name="author" content="EmPRISE Lab (Inspired by the <a href="http://www.allanlab.org/aboutwebsite" target=_blank>Allan Lab</a> template)">
+  
 
   <meta name="description" content="{% for article in site.data.press %}
+
 
   
     {{ article.title }}

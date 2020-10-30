@@ -9,13 +9,28 @@
 
   
 
-  <title>EmPRISE Lab</title>
+  <title>People</title>
 
   
-  <meta name="author" content="EmPRISE Lab (Inspired by the Allan Lab template - http://www.allanlab.org/aboutwebsite)">
+  <meta name="author" content="EmPRISE Lab (Inspired by the <a href="http://www.allanlab.org/aboutwebsite" target=_blank>Allan Lab</a> template)">
   
 
-  <meta name="description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta name="description" content="#### **We are looking for new PhD students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/apply) **!**
+
+
+{% for member in site.data.team_members %}
+
+
+  
+     
+  
+    {{ member.name }}
+    {{ member.info }}Email: {{ member.email }}
+    {{ member.bio }}
+  
+
+
+{% endfor %}">
 
   
 
@@ -72,15 +87,30 @@
 
   
   <meta property="og:site_name" content="EmPRISE Lab">
-  <meta property="og:title" content="EmPRISE Lab">
-  <meta property="og:description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta property="og:title" content="People">
+  <meta property="og:description" content="#### **We are looking for new PhD students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/apply) **!**
+
+
+{% for member in site.data.team_members %}
+
+
+  
+     
+  
+    {{ member.name }}
+    {{ member.info }}Email: {{ member.email }}
+    {{ member.bio }}
+  
+
+
+{% endfor %}">
 
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://emprise.cs.cornell.edu/">
-  <link rel="canonical" href="http://emprise.cs.cornell.edu/">
+  <meta property="og:url" content="http://emprise.cs.cornell.edu/people/">
+  <link rel="canonical" href="http://emprise.cs.cornell.edu/people/">
   
 
   
@@ -89,8 +119,23 @@
   <meta name="twitter:site" content="@EmpriseLab">
   <meta name="twitter:creator" content="@EmpriseLab">
 
-  <meta property="twitter:title" content="EmPRISE Lab">
-  <meta property="twitter:description" content="EMpowering People with Robots and Intelligent Shared Experiences">
+  <meta property="twitter:title" content="People">
+  <meta property="twitter:description" content="#### **We are looking for new PhD students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/apply) **!**
+
+
+{% for member in site.data.team_members %}
+
+
+  
+     
+  
+    {{ member.name }}
+    {{ member.info }}Email: {{ member.email }}
+    {{ member.bio }}
+  
+
+
+{% endfor %}">
 
   
 
@@ -160,12 +205,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="page-heading">
-          <h1>EmPRISE Lab</h1>
-          
-            
-              <hr class="small">
-              <span class="page-subheading">EMpowering People with Robots and Intelligent Shared Experiences</span>
-            
+          <h1>People</h1>
           
 
           
@@ -185,52 +225,37 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  
-  <body>
-    <p align="left"><font size="4">Our mission is to enable robots to improve the quality of life of people with mobility limitations by assisting them with activities of daily living (ADLs). In our lab, we seek solutions to the fundamental research question on <i>how to leverage robot-world physical interactions in unstructured human environments to perform relevant ADLs</i>.</font></p>
-    <p align="left"><font size="4">EmPRISE lab is a part of the <a href="http://www.cs.cornell.edu/" target="_blank">Department of Computer Science</a> in the <a href="https://cis.cornell.edu/" target="_blank">Computing and Information Science</a> at <a href="https://www.cornell.edu/" target="_blank">Cornell University</a>. We are a full-stack robotics lab leveraging tools from sensing, perception, planning, learning, and control to provide intelligent autonomy. Our projects delve deep into human-robot interaction, haptic perception, robot manipulation, and tactile sensing. We are not only passionate about developing algorithms that solve fundamental problems in these domains but also strongly believe in developing real robotic systems, deploying them in the real world, and evaluating them with real users.</font></p>
-  
-    <h2>Recent News:</h2>
+      <h4 id="we-are-looking-for-new-phd-students-to-join-the-team-see-openings-"><strong>We are looking for new PhD students to join the team</strong> <a href="http://emprise.cs.cornell.edu/apply">(see openings)</a> <strong>!</strong></h4>
 
-    
-    <p><b>July 2021</b><br>
-    <em><b> Our lab will officially start</b>!</em></p>
-    
-    <p><b>September 2020</b><br>
-    <em>Tapo gave an invited talk in <b>UTRGV CS Seminar</b></em></p>
-    
-    <p><b>September 2020</b><br>
-    <em>Tapo gave an invited talk in RO-MAN 2020 Workshop on <a href="https://sites.google.com/view/realworldhri-workshop">Solutions for Socially Intelligent HRI in Real-World Scenarios</a></em></p>
-    
-    <p><b>July 2020</b><br>
-    <em>Tapo gave an invited talk in RSS 2020 Workshop on <a href="https://www.tri.global/static/workshops/visuotactile2020/">Visuotactile Sensors for Robust Manipulation - From Perception to Control</a></em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Two papers accepted in IROS 2020 - one on <a href="https://drive.google.com/file/d/1PkrNqzhjFPmFPc3AFvvXr-Ui_NTKiT81/view">Online learning for Robot-Assisted Feeding</a> and the other on <a href="https://drive.google.com/file/d/1BKFLBWjMkECG5TxEE5axjAsLe86jWPW-/view">Chopsticks-based manipulation</a></em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Tapo was awarded <a href="https://www.ieee-ras.org/publications/ra-l/ra-l-distinguished-service-awards">Outstanding Reviewer</a> for the IEEE Robotics and Automation Letters</em></p>
-    
-    <p><b>June 2020</b><br>
-    <em>Tapo gave an invited talk in <b>UCSD Robotics Seminar Series</b></em></p>
-    
-
-    <h4><a href="http://emprise.cs.cornell.edu/allnews/">... See all news</a></h4>
-    
-  </body>
-</html>
-
-
-
-
-<div class="posts-list">
-  
+<div class="row mt-3">
+  <div class="col-md-4 col-offset-md-1 clearfix">
+    <img src="http://emprise.cs.cornell.edu/images/teampic/tapo.jpg" class="img-responsive" width="100%" style="float: left" /> </div>
+  <div class="col-md-8 clearfix">
+    <h4><a href="http://www.tapomayukh.com" target="_blank">Tapomayukh "Tapo" Bhattacharjee</a></h4>
+    <br />Assistant Professor, starting Summer 2021<br />Email: tapomayukh AT cornell dot edu
+    <p>Tapo wants to enable robots to assist people with mobility limitations with activities of daily living. He believes that efficient and safe physical interactions between robots and their immediate environments is the key. His work spans the fields of human-robot interaction, haptic perception, and robot manipulation.</p>
+  </div>
 </div>
 
+<div class="row mt-3">
+  <div class="col-md-4 col-offset-md-1 clearfix">
+    <img src="http://emprise.cs.cornell.edu/images/teampic/rock.jpg" class="img-responsive" width="100%" style="float: left" /> </div>
+  <div class="col-md-8 clearfix">
+    <h4>This could be you !</h4>
+    <br />See <a href="https://empriselab.github.io/apply/">openings</a> for more info<br />Email: awesome1 AT cornell dot edu
+    <p>Awesome grad student 1</p>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-md-4 col-offset-md-1 clearfix">
+    <img src="http://emprise.cs.cornell.edu/images/teampic/rock.jpg" class="img-responsive" width="100%" style="float: left" /> </div>
+  <div class="col-md-8 clearfix">
+    <h4>This could be you !</h4>
+    <br />See <a href="https://empriselab.github.io/apply/">openings</a> for more info<br />Email: awesome2 AT cornell dot edu
+    <p>Awesome grad student 2</p>
+  </div>
+</div>
 
 
 

@@ -11,7 +11,9 @@
 
   <title>Publications</title>
 
-  <meta name="author" content="EmPRISE Lab (Inspired by the Allan Lab template - http://www.allanlab.org/aboutwebsite)">  
+  
+  <meta name="author" content="EmPRISE Lab (Inspired by the <a href="http://www.allanlab.org/aboutwebsite" target=_blank>Allan Lab</a> template)">
+  
 
   <meta name="description" content="2020 Conference / Journal Papers {% for publi in site.data.publist %} {% if publi.year == 2020 %} {{ publi.title }} {{ publi.authors }} {{ publi.venue }}&amp;nbsp;{{ publi.year }}. {{ publi.note }} {% endif %} {% endfor %} Other Papers {% for publi in site.data.otherpublist %} {% if publi.year == 2020...">
 
